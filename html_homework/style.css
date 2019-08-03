@@ -1,0 +1,73 @@
+
+h2 {
+    color: white;
+    font-size: 60px;
+    font-family: cursive;
+    padding: 1%;
+}
+.dataframe {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: url(Resources/assets/images/sky.gif) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: cursive;
+    
+}
+p {
+    color: lightgray;
+    font-size: 15pt;
+    line-height: 2;
+    text-orientation: inherit;
+    text-justify: auto;
+    padding: 10px;
+}
+
+.panel-body {
+    background-color: dimgray;
+    opacity: 0.75;
+    filter: alpha(opacity = 75);
+    padding: 32px;
+}
+.box { 
+    position: relative;
+    opacity: 70%;
+    width: 700px;
+    height: 400px;
+    background-color: dimgrey;
+}
+.container-fluid {
+    padding-left: 2%;
+    margin: n5;
+}
+.container {
+    padding: 1%;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32,32,32);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.75;
+    filter: alpha(opacity = 75);
+}
+
+@media (max-width: 100px){
+    .container{
+        padding: 10px;
+    }
+    .container-fluid{
+        padding: 10px;
+    }
+    .box{
+        padding: 10px;
+    }
+}
